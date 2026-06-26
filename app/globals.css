@@ -28,3 +28,26 @@
 .btn-g:hover{background: #353535 !important; color: #fff !important; }
 
 hr{border-color: rgba(0,0,0,0.1) !important;}
+.scroll::-webkit-scrollbar-thumb{background:#ccc !important;}
+
+.MuiFormGroup-root .MuiTypography-root{font-size: 14px !important;}
+
+.MuiFormGroup-root .Mui-checked .MuiSvgIcon-root{fill: #028290 !important;}
+
+.MuiFormGroup-root .MuiFormControlLabel-root .MuiCheckbox-root{padding: 5px !important; padding-left: 10px !important; }
+
+.MuiCheckbox-root{padding: 5px !important; padding-left: 10px !important;}
+
+.ratingFilter .MuiCheckbox-root{padding-left: 0px !important;}
+.ReactCollapse--collapse{
+  transition: height 300ms;
+}
+
+.range-slider{height: 5px !important;}
+.range-slider .range-slider_thumb,.range-slider .range-slider_range{ @apply !bg-primary; }
+.range-slider .range-slider_thumb{width: 18px !important; height: 18px !important;}
+
+.MuiList-root li{font-size: 14px !important;}
+
+.MuiPaginationItem-circular .Mui-selected{background-color:#028290 !important; color: #fff !important;}
+
