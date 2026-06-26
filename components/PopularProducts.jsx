@@ -3,7 +3,7 @@ import React from 'react'
 import Tabs from '@mui/material/Tabs'
 import Tab from '@mui/material/Tab'
 import Box from '@mui/material/Box'
-import ProductsSlider from './ProductSlider'
+import ProductSlider from './ProductSlider'
 
 const PopularProducts = () => {
     const [value, setValue] = React.useState(0);
@@ -13,7 +13,7 @@ const PopularProducts = () => {
     };
 
   return (
-    <section className='bg-white py-5'>
+    <section className='bg-white py-8 '>
       <div className="container">
         <div className=" flex items-center justify-between ">
             <div className="col w-[30%]">
@@ -38,8 +38,8 @@ const PopularProducts = () => {
             </div>
         </div>
 
-        <ProductsSlider />
-        
+        <ProductSlider />
+
       </div>
     </section>
   )

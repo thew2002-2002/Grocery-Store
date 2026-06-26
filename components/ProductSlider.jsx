@@ -2,6 +2,7 @@
 import React from 'react'
 //Import Swiper React components
 import{Swiper, SwiperSlide} from 'swiper/react'
+import ProductItem from './ProductItem'
 
 //Import Swiper styles
 import 'swiper/css'
@@ -12,13 +13,39 @@ const ProductSlider = () => {
   return (
     <div className='productSlider'>
       <Swiper
-        
-        spaceBetween={30}
+        slidesPerView={6}
+        spaceBetween={5}
         navigation={true}
         modules={[Navigation]}
         className="mySwiper"
       >
-        <SwiperSlide>Slide 1</SwiperSlide>
+        <SwiperSlide className='py-3 px-2'>
+            <ProductItem />
+        </SwiperSlide>
+
+        <SwiperSlide className='py-3 px-2'>
+            <ProductItem />
+        </SwiperSlide>
+
+        <SwiperSlide className='py-3 px-2'>
+            <ProductItem />
+        </SwiperSlide>
+
+        <SwiperSlide className='py-3 px-2'>
+            <ProductItem />
+        </SwiperSlide>
+
+        <SwiperSlide className='py-3 px-2'>
+            <ProductItem />
+        </SwiperSlide>
+
+        <SwiperSlide className='py-3 px-2'>
+            <ProductItem />
+        </SwiperSlide>
+
+        <SwiperSlide className='py-3 px-2'>
+            <ProductItem />
+        </SwiperSlide>
         
       </Swiper>
     </div>
